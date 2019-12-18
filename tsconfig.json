@@ -6,6 +6,7 @@
         "noUnusedLocals": true,
         "noEmitOnError": true,
         "moduleResolution": "node",
+        "skipLibCheck": true,
         "alwaysStrict": true,
         "inlineSourceMap": true,
         "strictNullChecks": true,
