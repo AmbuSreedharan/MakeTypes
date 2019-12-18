@@ -5,9 +5,9 @@
   "main": "lib/index.js",
   "types": "lib/index",
   "scripts": {
-    "prepare": "tsc",
+    "prepare": "npx tsc",
     "generate:test": "node ./test/common/generateSamples.js",
-    "build:test": "tsc -p test/tsconfig.json",
+    "build:test": "npx tsc -p test/tsconfig.json",
     "mocha": "mocha",
     "istanbul": "istanbul cover ./test/common/generateSamples.js",
     "coverage": "npm-run-all --serial prepublish istanbul",
